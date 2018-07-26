@@ -1,4 +1,29 @@
 /**
+ * HEAP SORT
+ *
+ * This sorting algorithm will build a heap with the elements to be sorted. Them it will use the heap's properties
+ * to sort its elements.
+ *
+ * A heap is a binary tree with two properties:
+ *   - Shape Property: A given level of the tree can only exist if all the levels above are completed. New Leaves are
+ *                     inserted from left to right.
+ *   - Heap Property: Every node on the tree will have a value greater than or equal to its children, if it has any.
+ *
+ *  Exemple of a heap:
+ *
+ *         10
+ *        /  \
+ *       8    9
+ *      / \  /
+ *     7  6 5
+ *
+ * The key here is that a heap can be represented as an array where the root will be at index 0. For the node i its left
+ * child will have index 2 * i + 1 and its right child 2 * i + 2. The above heap represented this way would look like
+ * this: [10, 8, 9, 7, 6, 5].
+ *
+ */
+
+/**
  * This is not part of the algorithm, just a helper to make the code clearer. It swaps the value in indexA with the
  * value in indexB
  *
