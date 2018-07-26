@@ -6,4 +6,6 @@ Here is collection of algorithms implemented in JavaScript. They are separated i
 
 Here are the algorithms used to sort stuff.
 
-[Insertion Sort](sorting/insertionSort.js)
+- [Heap Sort](sorting/heapSort.js) - Sorts by building a heap with the elements to be sorted. Use it when you are concerned about the worst case scenarios.
+
+- [Insertion Sort](sorting/insertionSort.js) - Sorts by inserting the elements on their correct positions. Use this on small collections or when the collection is almost sorted.
