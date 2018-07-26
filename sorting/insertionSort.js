@@ -20,8 +20,12 @@ function sort(A) {
 }
 
 /**
- * The inserting function will pick a value and insert it on the right place, effectively moving the other values to their place as well.
- * Note that we can pass a function to be used instead of > on the comparison step to extend this same functionality to different use cases.
+ * The inserting function will pick a value and insert it on the right place, effectively moving the other values to
+ * their place as well.
+ *
+ * Note that we can pass a function to be used instead of > on the comparison step to extend this same functionality to
+ * different use cases.
+ *
  * @param A
  * @param pos
  * @param value
