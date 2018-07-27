@@ -11,10 +11,11 @@
 
 /**
  * This is the sorting function, it will run trough a given array calling insert on each element.
+ *
  * @param A - an array of integers
  */
 function sort(A) {
-    for (var pos = 1; pos < A.length - 1; pos++) {
+    for (var pos = 1; pos < A.length; pos++) {
         insert(A, pos, A[pos]);
     }
 }
