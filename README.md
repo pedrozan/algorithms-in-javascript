@@ -15,3 +15,9 @@ Here are the algorithms used to sort stuff.
 - [Merge Sort](sorting/mergeSort.js) - Sorts by dividing the collection successively in two parts, sorting the parts and merging back the sorted parts. This is a stable sort, use it when you need to keep equal pairs on their original order.
 
 - [Quick Sort](sorting/quickSort.js) - Sorts by dividing the collection in two parts and sorting each part separately. This is best used when you want a good average-case behavior.
+
+## Searching
+
+These are some of the algorithms you can use for searches.
+
+- [Sequential Search](searching/sequentialSearch.js) - The most straight forward search algorithm, runs the collection checking if the element matches the one being searched. Use this when the collection can only be accessed sequentially.
