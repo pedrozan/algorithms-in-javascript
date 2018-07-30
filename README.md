@@ -20,4 +20,5 @@ Here are the algorithms used to sort stuff.
 
 These are some of the algorithms you can use for searches.
 
+- [Binary Search](searching/binarySearch.js) - This search algorithm works only on ordered data. It will Select the middle element, compare to the one being searched and them look on the upper or lower half in the same way.
 - [Sequential Search](searching/sequentialSearch.js) - The most straight forward search algorithm, runs the collection checking if the element matches the one being searched. Use this when the collection can only be accessed sequentially.
