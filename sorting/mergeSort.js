@@ -1,4 +1,15 @@
 /**
+ * MERGE SORT
+ *
+ * This sorting algorithm works by dividing the set in two parts and sorting each part. In the end all parts are put
+ * together sorted. The important part of this sorting method is that it is stable.
+ *
+ * A stable sorting algorithm is one that, in case of two elements being equal, it keeps their original order. Given
+ * two elements A[i] and A[j], being A[i] = A[j] and i < j than a stable sort will keep A[i] to the left of A[j].
+ *
+ */
+
+/**
  * This is not part of the algorithm, just a helper to make the code clearer. It swaps the value in indexA with the
  * value in indexB
  *
