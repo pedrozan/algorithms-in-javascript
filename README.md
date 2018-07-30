@@ -12,4 +12,6 @@ Here are the algorithms used to sort stuff.
 
 - [Insertion Sort](sorting/insertionSort.js) - Sorts by inserting the elements on their correct positions. Use this on small collections or when the collection is almost sorted.
 
-- [Quick Sort](sorting/quickSort.js) - Sorts by dividing the collection in two parts and sorting each part separatedly. This is best used when you want a good average-case behavior.
+- [Merge Sort](sorting/mergeSort.js) - Sorts by dividing the collection successively in two parts, sorting the parts and merging back the sorted parts. This is a stable sort, use it when you need to keep equal pairs on their original order.
+
+- [Quick Sort](sorting/quickSort.js) - Sorts by dividing the collection in two parts and sorting each part separately. This is best used when you want a good average-case behavior.
